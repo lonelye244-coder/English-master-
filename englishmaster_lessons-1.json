@@ -1,0 +1,4105 @@
+{
+  "app": "EnglishMaster",
+  "schema_version": 1,
+  "description": "Expanded searchable English lesson library for EnglishMaster. Covers core English learning areas from beginner to advanced, but is not literally exhaustive; it can be extended.",
+  "usage_note": "Search title, category, keywords, explanation, examples, form, and practice. Quiz answer is the zero-based index in options. Lesson content is a curated starter curriculum, not a complete dictionary or every possible English topic.",
+  "lessons": [
+    {
+      "id": "grammar_present_simple",
+      "category": "Grammar",
+      "title": "Simple Present Tense",
+      "keywords": [
+        "present simple",
+        "simple present",
+        "habits",
+        "routine",
+        "facts",
+        "do does"
+      ],
+      "level": "Beginner",
+      "explanation": "Use the simple present for habits, routines, repeated actions, and general facts. With I/you/we/they, use the base verb. With he/she/it, usually add -s or -es.",
+      "examples": [
+        {
+          "sentence": "I study English every day.",
+          "note": "A regular habit."
+        },
+        {
+          "sentence": "She studies English every day.",
+          "note": "Add -ies because study ends in consonant + y."
+        },
+        {
+          "sentence": "Water boils at 100°C.",
+          "note": "A general fact."
+        }
+      ],
+      "form": "Positive: Subject + base verb (add -s/-es with he, she, it). Negative: Subject + do/does not + base verb. Question: Do/Does + subject + base verb?",
+      "common_mistakes": [
+        "She study English. → She studies English.",
+        "He doesn't likes tea. → He doesn't like tea."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "He play football.",
+            "He plays football.",
+            "He playing football."
+          ],
+          "answer": 1,
+          "why": "Use plays with he in the simple present."
+        }
+      ]
+    },
+    {
+      "id": "grammar_present_continuous",
+      "category": "Grammar",
+      "title": "Present Continuous Tense",
+      "keywords": [
+        "present continuous",
+        "present progressive",
+        "am is are ing",
+        "happening now"
+      ],
+      "level": "Beginner",
+      "explanation": "Use the present continuous for an action happening now or around the current time.",
+      "examples": [
+        {
+          "sentence": "I am reading now.",
+          "note": "The action is happening now."
+        },
+        {
+          "sentence": "They are studying for exams this week.",
+          "note": "A temporary activity around now."
+        }
+      ],
+      "form": "Subject + am/is/are + verb-ing. Negative: Subject + am/is/are not + verb-ing. Question: Am/Is/Are + subject + verb-ing?",
+      "common_mistakes": [
+        "She is read. → She is reading.",
+        "They are play. → They are playing."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "We are learn English.",
+            "We learning English.",
+            "We are learning English."
+          ],
+          "answer": 2,
+          "why": "Present continuous needs be + verb-ing."
+        }
+      ]
+    },
+    {
+      "id": "grammar_past_simple",
+      "category": "Grammar",
+      "title": "Simple Past Tense",
+      "keywords": [
+        "past simple",
+        "simple past",
+        "yesterday",
+        "regular irregular verbs"
+      ],
+      "level": "Beginner",
+      "explanation": "Use the simple past for completed actions at a finished time in the past. Regular verbs often end in -ed; irregular verbs change form.",
+      "examples": [
+        {
+          "sentence": "I watched a film yesterday.",
+          "note": "Regular verb: watch → watched."
+        },
+        {
+          "sentence": "She went to school.",
+          "note": "Irregular verb: go → went."
+        }
+      ],
+      "form": "Positive: Subject + past form. Negative: Subject + did not + base verb. Question: Did + subject + base verb?",
+      "common_mistakes": [
+        "Did you went? → Did you go?",
+        "I goed home. → I went home."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "Did he called you?",
+            "Did he call you?",
+            "Did he calls you?"
+          ],
+          "answer": 1,
+          "why": "After did, use the base verb."
+        }
+      ]
+    },
+    {
+      "id": "grammar_past_continuous",
+      "category": "Grammar",
+      "title": "Past Continuous Tense",
+      "keywords": [
+        "past continuous",
+        "was were ing",
+        "interrupted action"
+      ],
+      "level": "Intermediate",
+      "explanation": "Use the past continuous for an action in progress at a particular time in the past. It often describes the background to another action.",
+      "examples": [
+        {
+          "sentence": "I was sleeping at 10 p.m.",
+          "note": "An action in progress at a past time."
+        },
+        {
+          "sentence": "I was walking when it started to rain.",
+          "note": "The longer action was interrupted."
+        }
+      ],
+      "form": "Subject + was/were + verb-ing.",
+      "common_mistakes": [
+        "They was waiting. → They were waiting."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "She were cooking.",
+            "She was cooking.",
+            "She cooking was."
+          ],
+          "answer": 1,
+          "why": "Use was with she."
+        }
+      ]
+    },
+    {
+      "id": "grammar_future_simple",
+      "category": "Grammar",
+      "title": "Simple Future Tense",
+      "keywords": [
+        "future simple",
+        "will",
+        "going to",
+        "tomorrow",
+        "future tense"
+      ],
+      "level": "Beginner",
+      "explanation": "Use will for predictions, promises, and quick decisions. Use be going to for plans or predictions based on present evidence.",
+      "examples": [
+        {
+          "sentence": "I will help you.",
+          "note": "A promise or offer."
+        },
+        {
+          "sentence": "Look at those clouds. It is going to rain.",
+          "note": "A prediction based on evidence."
+        }
+      ],
+      "form": "Will: Subject + will + base verb. Going to: Subject + am/is/are going to + base verb.",
+      "common_mistakes": [
+        "She will goes. → She will go.",
+        "I going to study. → I am going to study."
+      ],
+      "quiz": [
+        {
+          "q": "Complete: I think our team ___ win.",
+          "options": [
+            "will",
+            "is",
+            "did"
+          ],
+          "answer": 0,
+          "why": "Will is common for predictions."
+        }
+      ]
+    },
+    {
+      "id": "grammar_present_perfect",
+      "category": "Grammar",
+      "title": "Present Perfect Tense",
+      "keywords": [
+        "present perfect",
+        "have has",
+        "ever never already yet since for"
+      ],
+      "level": "Intermediate",
+      "explanation": "Use the present perfect for past experiences without a specific finished time, or past actions connected to the present.",
+      "examples": [
+        {
+          "sentence": "I have visited Nairobi.",
+          "note": "An experience; no specific time is given."
+        },
+        {
+          "sentence": "She has lived here for five years.",
+          "note": "The situation continues now."
+        }
+      ],
+      "form": "Subject + have/has + past participle.",
+      "common_mistakes": [
+        "He have finished. → He has finished.",
+        "I have seen him yesterday. → I saw him yesterday."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct form: She ___ finished her work.",
+          "options": [
+            "have",
+            "has",
+            "having"
+          ],
+          "answer": 1,
+          "why": "Use has with she."
+        }
+      ]
+    },
+    {
+      "id": "grammar_nouns",
+      "category": "Grammar",
+      "title": "Nouns",
+      "keywords": [
+        "noun",
+        "person place thing idea",
+        "common proper countable uncountable"
+      ],
+      "level": "Beginner",
+      "explanation": "A noun names a person, place, thing, or idea. Nouns can be common or proper, and countable or uncountable.",
+      "examples": [
+        {
+          "sentence": "teacher, city, book, happiness",
+          "note": "Examples of nouns."
+        },
+        {
+          "sentence": "Addis Ababa is a city.",
+          "note": "Addis Ababa is a proper noun; city is a common noun."
+        }
+      ],
+      "form": "Countable nouns can be counted (one book, two books). Uncountable nouns are not normally counted individually (water, advice, information).",
+      "common_mistakes": [
+        "an advice → some advice / a piece of advice",
+        "informations → information"
+      ],
+      "quiz": [
+        {
+          "q": "Which word is a noun?",
+          "options": [
+            "quickly",
+            "beautiful",
+            "happiness"
+          ],
+          "answer": 2,
+          "why": "Happiness names an idea or feeling."
+        }
+      ]
+    },
+    {
+      "id": "grammar_pronouns",
+      "category": "Grammar",
+      "title": "Pronouns",
+      "keywords": [
+        "pronoun",
+        "subject object possessive reflexive"
+      ],
+      "level": "Beginner",
+      "explanation": "A pronoun replaces a noun to avoid repetition. Subject pronouns include I, you, he, she, it, we, they. Object pronouns include me, you, him, her, it, us, them.",
+      "examples": [
+        {
+          "sentence": "Marta is kind. She helps people.",
+          "note": "She replaces Marta."
+        },
+        {
+          "sentence": "I called him.",
+          "note": "Him is the object pronoun."
+        }
+      ],
+      "form": "Subject: I/he/she/we/they. Object: me/him/her/us/them. Possessive adjectives: my/his/her/our/their.",
+      "common_mistakes": [
+        "Me went home. → I went home.",
+        "This is her book; it is hers. → Her comes before a noun; hers stands alone."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "Him is my friend.",
+            "He is my friend.",
+            "His is my friend."
+          ],
+          "answer": 1,
+          "why": "Use the subject pronoun he as the subject."
+        }
+      ]
+    },
+    {
+      "id": "grammar_articles",
+      "category": "Grammar",
+      "title": "Articles: A, An, and The",
+      "keywords": [
+        "articles",
+        "a an the",
+        "indefinite definite article"
+      ],
+      "level": "Beginner",
+      "explanation": "Use a/an for one nonspecific singular countable noun. Use an before a vowel sound. Use the for a specific or already-known thing.",
+      "examples": [
+        {
+          "sentence": "I saw a dog.",
+          "note": "Any dog, not yet identified."
+        },
+        {
+          "sentence": "She ate an apple.",
+          "note": "Apple begins with a vowel sound."
+        },
+        {
+          "sentence": "The dog was brown.",
+          "note": "The dog is now identified."
+        }
+      ],
+      "form": "a + consonant sound; an + vowel sound; the + specific noun.",
+      "common_mistakes": [
+        "an university → a university (starts with a /y/ sound)",
+        "a orange → an orange"
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct phrase.",
+          "options": [
+            "a elephant",
+            "an elephant",
+            "the elephant always"
+          ],
+          "answer": 1,
+          "why": "Elephant begins with a vowel sound."
+        }
+      ]
+    },
+    {
+      "id": "grammar_adjectives",
+      "category": "Grammar",
+      "title": "Adjectives",
+      "keywords": [
+        "adjective",
+        "describing words",
+        "comparative superlative"
+      ],
+      "level": "Beginner",
+      "explanation": "An adjective describes a noun or pronoun. It can tell us what something is like, how many, or which one.",
+      "examples": [
+        {
+          "sentence": "She has a beautiful dress.",
+          "note": "Beautiful describes dress."
+        },
+        {
+          "sentence": "This book is easier than that one.",
+          "note": "Easier compares two things."
+        },
+        {
+          "sentence": "Mountains are very high.",
+          "note": "High describes mountains."
+        }
+      ],
+      "form": "Short adjectives often use -er/-est; longer adjectives often use more/most. Some are irregular: good, better, best.",
+      "common_mistakes": [
+        "more easier → easier",
+        "the most tallest → the tallest"
+      ],
+      "quiz": [
+        {
+          "q": "What is the adjective? 'The small cat slept.'",
+          "options": [
+            "cat",
+            "slept",
+            "small"
+          ],
+          "answer": 2,
+          "why": "Small describes the cat."
+        }
+      ]
+    },
+    {
+      "id": "grammar_adverbs",
+      "category": "Grammar",
+      "title": "Adverbs",
+      "keywords": [
+        "adverb",
+        "how when where how often",
+        "quickly slowly"
+      ],
+      "level": "Beginner",
+      "explanation": "Adverbs can describe verbs, adjectives, or other adverbs. They often tell how, when, where, or how often something happens.",
+      "examples": [
+        {
+          "sentence": "He speaks slowly.",
+          "note": "Slowly tells how he speaks."
+        },
+        {
+          "sentence": "We arrived yesterday.",
+          "note": "Yesterday tells when."
+        }
+      ],
+      "form": "Many adverbs are formed with adjective + -ly, but not all: fast, well, often, never.",
+      "common_mistakes": [
+        "She sings good. → She sings well.",
+        "He drives careful. → He drives carefully."
+      ],
+      "quiz": [
+        {
+          "q": "Which word is an adverb?",
+          "options": [
+            "carefully",
+            "careful",
+            "care"
+          ],
+          "answer": 0,
+          "why": "Carefully describes how an action is done."
+        }
+      ]
+    },
+    {
+      "id": "grammar_prepositions",
+      "category": "Grammar",
+      "title": "Prepositions of Time and Place",
+      "keywords": [
+        "prepositions",
+        "in on at",
+        "time place"
+      ],
+      "level": "Beginner",
+      "explanation": "Prepositions show relationships such as time, place, direction, and position. For time, use at for exact times, on for days/dates, and in for months, years, and longer periods.",
+      "examples": [
+        {
+          "sentence": "The class starts at 8:00.",
+          "note": "Exact time."
+        },
+        {
+          "sentence": "I study on Monday.",
+          "note": "Day."
+        },
+        {
+          "sentence": "She was born in 2008.",
+          "note": "Year."
+        },
+        {
+          "sentence": "The keys are on the table.",
+          "note": "Position."
+        }
+      ],
+      "form": "Time: at 7:00; on Friday; in October/in 2026. Place: at school; on a surface; in a room or city.",
+      "common_mistakes": [
+        "in Monday → on Monday",
+        "at 2026 → in 2026"
+      ],
+      "quiz": [
+        {
+          "q": "We have English class ___ Monday.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answer": 1,
+          "why": "Use on with days."
+        }
+      ]
+    },
+    {
+      "id": "grammar_conjunctions",
+      "category": "Grammar",
+      "title": "Conjunctions",
+      "keywords": [
+        "conjunction",
+        "and but or because although so"
+      ],
+      "level": "Beginner",
+      "explanation": "Conjunctions connect words, phrases, or clauses. And adds information, but shows contrast, or gives a choice, because gives a reason, and so shows a result.",
+      "examples": [
+        {
+          "sentence": "I was tired, but I finished my work.",
+          "note": "But shows contrast."
+        },
+        {
+          "sentence": "She stayed home because she was ill.",
+          "note": "Because gives a reason."
+        }
+      ],
+      "form": "Use a conjunction to connect related ideas. Avoid joining two complete sentences with only a comma.",
+      "common_mistakes": [
+        "I was tired, I slept. → I was tired, so I slept."
+      ],
+      "quiz": [
+        {
+          "q": "I stayed inside ___ it was raining.",
+          "options": [
+            "because",
+            "or",
+            "but"
+          ],
+          "answer": 0,
+          "why": "Because introduces the reason."
+        }
+      ]
+    },
+    {
+      "id": "grammar_subject_verb_agreement",
+      "category": "Grammar",
+      "title": "Subject–Verb Agreement",
+      "keywords": [
+        "subject verb agreement",
+        "he she it s",
+        "singular plural"
+      ],
+      "level": "Beginner",
+      "explanation": "The verb must agree with its subject. In the simple present, he, she, and it usually take a verb ending in -s or -es; I, you, we, and they use the base form.",
+      "examples": [
+        {
+          "sentence": "The student works hard.",
+          "note": "Singular subject: works."
+        },
+        {
+          "sentence": "The students work hard.",
+          "note": "Plural subject: work."
+        }
+      ],
+      "form": "Singular subject + singular verb form; plural subject + plural verb form.",
+      "common_mistakes": [
+        "My friends likes music. → My friends like music.",
+        "Everyone are ready. → Everyone is ready."
+      ],
+      "quiz": [
+        {
+          "q": "The children ___ outside.",
+          "options": [
+            "plays",
+            "play",
+            "playing"
+          ],
+          "answer": 1,
+          "why": "Children is plural, so use play."
+        }
+      ]
+    },
+    {
+      "id": "grammar_questions",
+      "category": "Grammar",
+      "title": "Making Questions in English",
+      "keywords": [
+        "questions",
+        "wh questions",
+        "do does did is are"
+      ],
+      "level": "Beginner",
+      "explanation": "Yes/no questions often begin with an auxiliary verb. Wh-questions begin with words such as who, what, where, when, why, and how.",
+      "examples": [
+        {
+          "sentence": "Do you like music?",
+          "note": "Do + subject + base verb."
+        },
+        {
+          "sentence": "Where does she live?",
+          "note": "Wh-word + does + subject + base verb."
+        }
+      ],
+      "form": "Simple present: Do/Does + subject + base verb? Simple past: Did + subject + base verb? Be: Am/Is/Are + subject?",
+      "common_mistakes": [
+        "Where you live? → Where do you live?",
+        "Does he likes it? → Does he like it?"
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct question.",
+          "options": [
+            "Where she works?",
+            "Where does she work?",
+            "Where does she works?"
+          ],
+          "answer": 1,
+          "why": "Use does + subject + base verb."
+        }
+      ]
+    },
+    {
+      "id": "grammar_passive_voice",
+      "category": "Grammar",
+      "title": "Active and Passive Voice",
+      "keywords": [
+        "passive voice",
+        "active voice",
+        "be past participle"
+      ],
+      "level": "Intermediate",
+      "explanation": "In active voice, the subject performs the action. In passive voice, the subject receives the action. Passive voice is useful when the action or result matters more than the doer.",
+      "examples": [
+        {
+          "sentence": "Active: The chef cooked the meal.",
+          "note": "The chef performs the action."
+        },
+        {
+          "sentence": "Passive: The meal was cooked by the chef.",
+          "note": "The meal receives the action."
+        }
+      ],
+      "form": "Passive: subject + suitable form of be + past participle.",
+      "common_mistakes": [
+        "The room cleaned yesterday. → The room was cleaned yesterday."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the passive form: 'They built the bridge.'",
+          "options": [
+            "The bridge built them.",
+            "The bridge was built.",
+            "The bridge is build."
+          ],
+          "answer": 1,
+          "why": "Past simple passive uses was/were + past participle."
+        }
+      ]
+    },
+    {
+      "id": "grammar_reported_speech",
+      "category": "Grammar",
+      "title": "Reported Speech",
+      "keywords": [
+        "reported speech",
+        "indirect speech",
+        "said told"
+      ],
+      "level": "Intermediate",
+      "explanation": "Reported speech tells what someone said without repeating the exact words. Pronouns and verb tenses may change depending on context.",
+      "examples": [
+        {
+          "sentence": "Direct: She said, “I am tired.”",
+          "note": "The speaker's exact words."
+        },
+        {
+          "sentence": "Reported: She said that she was tired.",
+          "note": "Pronoun and tense change in a common backshift pattern."
+        }
+      ],
+      "form": "say + (that) clause; tell + person + (that) clause. When the reporting verb is in the past, present tense often shifts back one step.",
+      "common_mistakes": [
+        "She told that she was tired. → She said that she was tired / She told me that she was tired."
+      ],
+      "quiz": [
+        {
+          "q": "Report: He said, 'I am busy.'",
+          "options": [
+            "He said he is busy yesterday.",
+            "He said that he was busy.",
+            "He told that busy."
+          ],
+          "answer": 1,
+          "why": "A common reported form shifts am to was."
+        }
+      ]
+    },
+    {
+      "id": "grammar_conditionals",
+      "category": "Grammar",
+      "title": "Conditional Sentences",
+      "keywords": [
+        "conditionals",
+        "if clause",
+        "zero first second third conditional"
+      ],
+      "level": "Intermediate",
+      "explanation": "Conditionals describe results that depend on a condition. Zero conditional describes general truths; first conditional describes a real possible future; second conditional describes an unreal or unlikely present/future; third conditional describes an unreal past.",
+      "examples": [
+        {
+          "sentence": "If you heat ice, it melts.",
+          "note": "Zero conditional: general truth."
+        },
+        {
+          "sentence": "If it rains, we will stay home.",
+          "note": "First conditional: possible future."
+        },
+        {
+          "sentence": "If I had more time, I would read more.",
+          "note": "Second conditional: imagined situation."
+        }
+      ],
+      "form": "Zero: If + present, present. First: If + present, will + base verb. Second: If + past, would + base verb. Third: If + past perfect, would have + past participle.",
+      "common_mistakes": [
+        "If it will rain, we will stay home. → If it rains, we will stay home."
+      ],
+      "quiz": [
+        {
+          "q": "If I study, I ___ the test.",
+          "options": [
+            "passed yesterday",
+            "will pass",
+            "would have passed yesterday"
+          ],
+          "answer": 1,
+          "why": "First conditional uses present in the if-clause and will in the result."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary_synonyms_antonyms",
+      "category": "Vocabulary",
+      "title": "Synonyms and Antonyms",
+      "keywords": [
+        "synonyms",
+        "antonyms",
+        "similar opposite words"
+      ],
+      "level": "Beginner",
+      "explanation": "Synonyms have similar meanings. Antonyms have opposite meanings. The best choice depends on the sentence and context.",
+      "examples": [
+        {
+          "sentence": "Big / large",
+          "note": "Similar meanings: synonyms."
+        },
+        {
+          "sentence": "Hot / cold",
+          "note": "Opposite meanings: antonyms."
+        },
+        {
+          "sentence": "Begin / start",
+          "note": "Often similar, but context matters."
+        }
+      ],
+      "form": "Learn new words with a definition, example sentence, and one related or opposite word.",
+      "common_mistakes": [
+        "Assuming every synonym works in every sentence. Check grammar, tone, and context."
+      ],
+      "quiz": [
+        {
+          "q": "Which word is an antonym of 'early'?",
+          "options": [
+            "soon",
+            "late",
+            "quick"
+          ],
+          "answer": 1,
+          "why": "Late is the opposite of early."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary_phrasal_verbs",
+      "category": "Vocabulary",
+      "title": "Common Phrasal Verbs",
+      "keywords": [
+        "phrasal verbs",
+        "give up",
+        "look after",
+        "turn on",
+        "find out"
+      ],
+      "level": "Intermediate",
+      "explanation": "A phrasal verb combines a verb with a particle such as an adverb or preposition. Its meaning may differ from the main verb alone.",
+      "examples": [
+        {
+          "sentence": "Please turn on the light.",
+          "note": "Turn on = start a device."
+        },
+        {
+          "sentence": "She looks after her little brother.",
+          "note": "Look after = take care of."
+        },
+        {
+          "sentence": "Don't give up.",
+          "note": "Give up = stop trying."
+        }
+      ],
+      "form": "Learn each phrasal verb as a phrase, including whether it can be separated by an object.",
+      "common_mistakes": [
+        "Using a phrasal verb without checking its meaning or word order."
+      ],
+      "quiz": [
+        {
+          "q": "'Find out' most nearly means:",
+          "options": [
+            "discover",
+            "hide",
+            "forget"
+          ],
+          "answer": 0,
+          "why": "Find out means discover or learn information."
+        }
+      ]
+    },
+    {
+      "id": "writing_paragraphs",
+      "category": "Writing",
+      "title": "How to Write a Paragraph",
+      "keywords": [
+        "paragraph writing",
+        "topic sentence",
+        "supporting details",
+        "conclusion"
+      ],
+      "level": "Beginner",
+      "explanation": "A clear paragraph usually focuses on one main idea. It often has a topic sentence, supporting details or examples, and a concluding sentence.",
+      "examples": [
+        {
+          "sentence": "Topic: Reading is useful.",
+          "note": "This introduces the main idea."
+        },
+        {
+          "sentence": "Reading builds vocabulary and gives us information.",
+          "note": "These details support the idea."
+        },
+        {
+          "sentence": "For these reasons, reading is a valuable habit.",
+          "note": "This concludes the paragraph."
+        }
+      ],
+      "form": "Topic sentence → supporting sentences → concluding sentence.",
+      "common_mistakes": [
+        "Changing to an unrelated topic in the middle of a paragraph."
+      ],
+      "quiz": [
+        {
+          "q": "What does a topic sentence do?",
+          "options": [
+            "Introduces the main idea",
+            "Lists every source",
+            "Always asks a question"
+          ],
+          "answer": 0,
+          "why": "The topic sentence tells readers the paragraph's main point."
+        }
+      ]
+    },
+    {
+      "id": "writing_punctuation",
+      "category": "Writing",
+      "title": "Basic English Punctuation",
+      "keywords": [
+        "punctuation",
+        "period full stop comma question mark apostrophe"
+      ],
+      "level": "Beginner",
+      "explanation": "Punctuation helps readers understand meaning. Use a full stop for a statement, a question mark for a direct question, commas to separate items or parts of a sentence, and apostrophes for contractions and possession.",
+      "examples": [
+        {
+          "sentence": "I bought pens, books, and paper.",
+          "note": "Commas separate items."
+        },
+        {
+          "sentence": "Where are you?",
+          "note": "Question mark."
+        },
+        {
+          "sentence": "Mina's bag is blue.",
+          "note": "Apostrophe shows possession."
+        }
+      ],
+      "form": "Start sentences with capital letters and use suitable punctuation at the end.",
+      "common_mistakes": [
+        "Lets eat, Grandma! → Let's eat, Grandma! ('Let's' means let us.)"
+      ],
+      "quiz": [
+        {
+          "q": "Which punctuation ends a direct question?",
+          "options": [
+            ".",
+            "? ",
+            ","
+          ],
+          "answer": 1,
+          "why": "A question mark ends a direct question."
+        }
+      ]
+    },
+    {
+      "id": "speaking_greetings",
+      "category": "Speaking",
+      "title": "Greetings and Introductions",
+      "keywords": [
+        "greetings",
+        "introductions",
+        "hello nice to meet you"
+      ],
+      "level": "Beginner",
+      "explanation": "Greetings help you start a conversation politely. The best greeting depends on the time, relationship, and situation.",
+      "examples": [
+        {
+          "sentence": "Hello! My name is Hana.",
+          "note": "A simple introduction."
+        },
+        {
+          "sentence": "Nice to meet you.",
+          "note": "A polite phrase when meeting someone."
+        },
+        {
+          "sentence": "How are you? I'm fine, thank you.",
+          "note": "A common greeting exchange."
+        }
+      ],
+      "form": "Greeting → name or introduction → friendly question or response.",
+      "common_mistakes": [
+        "Using very casual greetings in formal situations. Choose language that fits the context."
+      ],
+      "quiz": [
+        {
+          "q": "Which is a polite introduction?",
+          "options": [
+            "Give me your name.",
+            "Hello, I'm Dawit. Nice to meet you.",
+            "What you are?"
+          ],
+          "answer": 1,
+          "why": "It is a natural and polite introduction."
+        }
+      ]
+    },
+    {
+      "id": "reading_comprehension",
+      "category": "Reading",
+      "title": "Reading Comprehension Strategies",
+      "keywords": [
+        "reading comprehension",
+        "main idea",
+        "details",
+        "inference",
+        "context clues"
+      ],
+      "level": "Beginner",
+      "explanation": "To understand a text, identify the main idea, notice supporting details, use context clues to understand unfamiliar words, and make inferences from evidence.",
+      "examples": [
+        {
+          "sentence": "A paragraph describes how trees provide shade, fruit, and homes for birds.",
+          "note": "The main idea may be that trees are useful."
+        },
+        {
+          "sentence": "A character carries an umbrella and wears a raincoat.",
+          "note": "You can infer that the weather may be rainy."
+        }
+      ],
+      "form": "Preview the title → read for the main idea → find details → check unfamiliar words in context → summarize.",
+      "common_mistakes": [
+        "Choosing an answer that sounds reasonable but is not supported by the text."
+      ],
+      "quiz": [
+        {
+          "q": "What is an inference?",
+          "options": [
+            "A guess based on clues and knowledge",
+            "The title only",
+            "A word's spelling"
+          ],
+          "answer": 0,
+          "why": "An inference uses evidence and reasoning."
+        }
+      ]
+    },
+    {
+      "id": "study_vocabulary_method",
+      "category": "Study Skills",
+      "title": "How to Learn and Remember Vocabulary",
+      "keywords": [
+        "learn vocabulary",
+        "remember words",
+        "flashcards",
+        "spaced repetition"
+      ],
+      "level": "Beginner",
+      "explanation": "Learn vocabulary in context instead of memorizing isolated translations. Review words over several days, make your own sentences, and practise recalling meanings without looking.",
+      "examples": [
+        {
+          "sentence": "Word: reliable. Example: My friend is reliable because she keeps her promises.",
+          "note": "Meaning and context help memory."
+        }
+      ],
+      "form": "Word → simple definition → example → your own sentence → review later.",
+      "common_mistakes": [
+        "Reading a word many times without testing whether you can remember it."
+      ],
+      "quiz": [
+        {
+          "q": "Which method usually helps you check memory actively?",
+          "options": [
+            "Hide the answer and recall it",
+            "Only reread the page",
+            "Skip review"
+          ],
+          "answer": 0,
+          "why": "Active recall makes you retrieve information from memory."
+        }
+      ]
+    },
+    {
+      "id": "grammar_verbs",
+      "category": "Grammar",
+      "title": "Verbs",
+      "keywords": [
+        "verb",
+        "action",
+        "state",
+        "be",
+        "have",
+        "do",
+        "modal",
+        "can",
+        "must"
+      ],
+      "level": "Beginner",
+      "explanation": "A verb expresses an action, event, or state. Main verbs include run, think, and know. Auxiliary verbs help form questions, negatives, tenses, and passive structures.",
+      "examples": [
+        {
+          "sentence": "Birds fly.",
+          "note": "Fly is an action verb."
+        },
+        {
+          "sentence": "She is happy.",
+          "note": "Is links the subject to a description."
+        }
+      ],
+      "form": "Identify the verb in a sentence and check its tense and agreement.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "Which is a verb?",
+          "options": [
+            "blue",
+            "think",
+            "happiness"
+          ],
+          "answer": 1,
+          "why": "Think expresses a mental action."
+        }
+      ]
+    },
+    {
+      "id": "grammar_modal_verbs",
+      "category": "Grammar",
+      "title": "Modal Verbs: Can, Could, Should, Must",
+      "keywords": [
+        "modal",
+        "verbs",
+        "can",
+        "could",
+        "should",
+        "must",
+        "may",
+        "might",
+        "advice",
+        "ability",
+        "permission",
+        "obligation"
+      ],
+      "level": "Intermediate",
+      "explanation": "Modal verbs express ability, possibility, permission, advice, or obligation. A modal is followed by the base form of a verb.",
+      "examples": [
+        {
+          "sentence": "I can swim.",
+          "note": "Ability."
+        },
+        {
+          "sentence": "You should rest.",
+          "note": "Advice."
+        },
+        {
+          "sentence": "You must wear a seat belt.",
+          "note": "Strong obligation."
+        }
+      ],
+      "form": "Subject + modal + base verb. Do not add -s to the main verb after a modal.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "She can sings.",
+            "She can sing.",
+            "She cans sing."
+          ],
+          "answer": 1,
+          "why": "Use the base verb after can."
+        }
+      ]
+    },
+    {
+      "id": "grammar_countable_uncountable",
+      "category": "Grammar",
+      "title": "Countable and Uncountable Nouns",
+      "keywords": [
+        "countable",
+        "uncountable",
+        "much",
+        "many",
+        "few",
+        "little",
+        "some",
+        "any"
+      ],
+      "level": "Beginner",
+      "explanation": "Countable nouns have singular and plural forms. Uncountable nouns are not normally counted individually. Use many with countable plurals and much with uncountable nouns, especially in questions and negatives.",
+      "examples": [
+        {
+          "sentence": "How many books?",
+          "note": "Books are countable."
+        },
+        {
+          "sentence": "How much water?",
+          "note": "Water is uncountable."
+        }
+      ],
+      "form": "many/few + countable plural; much/little + uncountable noun.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "Choose the correct phrase.",
+          "options": [
+            "many information",
+            "much information",
+            "informations"
+          ],
+          "answer": 1,
+          "why": "Information is normally uncountable."
+        }
+      ]
+    },
+    {
+      "id": "grammar_comparatives",
+      "category": "Grammar",
+      "title": "Comparatives and Superlatives",
+      "keywords": [
+        "comparative",
+        "superlative",
+        "more",
+        "most",
+        "than",
+        "the",
+        "best",
+        "better"
+      ],
+      "level": "Beginner",
+      "explanation": "Use comparatives to compare two people or things and superlatives to identify the top or bottom of a group.",
+      "examples": [
+        {
+          "sentence": "A bike is faster than walking.",
+          "note": "Comparative."
+        },
+        {
+          "sentence": "This is the tallest building here.",
+          "note": "Superlative."
+        }
+      ],
+      "form": "Short adjectives often use -er/-est; longer adjectives often use more/most; good → better → best.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "Choose the correct phrase.",
+          "options": [
+            "more cheaper",
+            "cheaper",
+            "the most cheapest"
+          ],
+          "answer": 1,
+          "why": "Cheaper is the correct comparative."
+        }
+      ]
+    },
+    {
+      "id": "grammar_relative_clauses",
+      "category": "Grammar",
+      "title": "Relative Clauses",
+      "keywords": [
+        "relative",
+        "clauses",
+        "who",
+        "which",
+        "that",
+        "whose",
+        "where"
+      ],
+      "level": "Intermediate",
+      "explanation": "Relative clauses add information about a noun. Who is commonly used for people, which for things, that for people or things in many defining clauses, whose for possession, and where for places.",
+      "examples": [
+        {
+          "sentence": "The girl who won is my sister.",
+          "note": "Who refers to a person."
+        },
+        {
+          "sentence": "This is the book that I bought.",
+          "note": "That refers to a thing."
+        }
+      ],
+      "form": "Noun + relative word + clause.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "The man which called",
+            "The man who called",
+            "The man where called"
+          ],
+          "answer": 1,
+          "why": "Who is suitable for a person."
+        }
+      ]
+    },
+    {
+      "id": "writing_essay",
+      "category": "Writing",
+      "title": "Writing a Short Essay",
+      "keywords": [
+        "essay",
+        "introduction",
+        "body",
+        "conclusion",
+        "thesis"
+      ],
+      "level": "Intermediate",
+      "explanation": "A basic essay has an introduction, body paragraphs, and a conclusion. The introduction presents the topic and main point; body paragraphs explain reasons with evidence or examples; the conclusion brings the ideas together.",
+      "examples": [
+        {
+          "sentence": "Introduction: State your position.",
+          "note": "Give the reader a clear direction."
+        },
+        {
+          "sentence": "Body: Explain two reasons.",
+          "note": "Support each reason with examples."
+        }
+      ],
+      "form": "Plan → draft → organise paragraphs → revise meaning → proofread grammar and spelling.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "What is the main job of a conclusion?",
+          "options": [
+            "Introduce a completely new argument",
+            "Bring the main ideas together",
+            "List random words"
+          ],
+          "answer": 1,
+          "why": "A conclusion wraps up the essay."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary_idioms",
+      "category": "Vocabulary",
+      "title": "Common English Idioms",
+      "keywords": [
+        "idioms",
+        "meaning",
+        "piece",
+        "of",
+        "cake",
+        "break",
+        "the",
+        "ice",
+        "once",
+        "in",
+        "a",
+        "blue",
+        "moon"
+      ],
+      "level": "Intermediate",
+      "explanation": "An idiom is an expression whose meaning may not be obvious from the individual words. Learn idioms with their meanings and example situations.",
+      "examples": [
+        {
+          "sentence": "The test was a piece of cake.",
+          "note": "It was very easy."
+        },
+        {
+          "sentence": "He told a joke to break the ice.",
+          "note": "He helped people feel more comfortable."
+        }
+      ],
+      "form": "Record the idiom, its meaning, and a natural example sentence.",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "'A piece of cake' means:",
+          "options": [
+            "A dessert only",
+            "Something very easy",
+            "Something impossible"
+          ],
+          "answer": 1,
+          "why": "It means something is very easy."
+        }
+      ]
+    },
+    {
+      "id": "speaking_polite_requests",
+      "category": "Speaking",
+      "title": "Polite Requests",
+      "keywords": [
+        "polite",
+        "requests",
+        "could",
+        "you",
+        "would",
+        "you",
+        "please",
+        "may",
+        "I"
+      ],
+      "level": "Beginner",
+      "explanation": "Polite requests often use could, would, can, and please. Could you and would you are often more polite than direct commands.",
+      "examples": [
+        {
+          "sentence": "Could you help me, please?",
+          "note": "Polite request."
+        },
+        {
+          "sentence": "May I borrow your pen?",
+          "note": "Asks permission."
+        }
+      ],
+      "form": "Could you + base verb...? / Would you mind + verb-ing...? / May I + base verb...?",
+      "common_mistakes": [],
+      "quiz": [
+        {
+          "q": "Which is the most polite request here?",
+          "options": [
+            "Give me water.",
+            "Could I have some water, please?",
+            "Water now."
+          ],
+          "answer": 1,
+          "why": "It uses a polite question and please."
+        }
+      ]
+    },
+    {
+      "id": "grammar_be",
+      "category": "Grammar",
+      "title": "The Verb Be: Am, Is, Are, Was, Were",
+      "keywords": [
+        "be",
+        "am",
+        "is",
+        "are",
+        "was",
+        "were",
+        "linking",
+        "verb"
+      ],
+      "level": "Beginner",
+      "explanation": "The verb be links a subject to a description, identity, place, or state. Its form changes with the subject and tense.",
+      "examples": [
+        {
+          "sentence": "I am ready.",
+          "note": "Am goes with I."
+        },
+        {
+          "sentence": "They are students.",
+          "note": "Are goes with they."
+        },
+        {
+          "sentence": "She was tired yesterday.",
+          "note": "Was is a past form."
+        }
+      ],
+      "form": "Present: I am; he/she/it is; you/we/they are. Past: I/he/she/it was; you/we/they were.",
+      "common_mistakes": [
+        "I is ready. → I am ready."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "They is here.",
+            "They are here.",
+            "They be here."
+          ],
+          "answer": 1,
+          "why": "They takes are."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_have_do",
+      "category": "Grammar",
+      "title": "Have and Do as Main and Auxiliary Verbs",
+      "keywords": [
+        "have",
+        "has",
+        "do",
+        "does",
+        "did",
+        "auxiliary"
+      ],
+      "level": "Beginner",
+      "explanation": "Have can show possession or experience; do can mean perform an action. Do and have can also help form questions and negatives.",
+      "examples": [
+        {
+          "sentence": "I have a notebook.",
+          "note": "Have shows possession."
+        },
+        {
+          "sentence": "Do you like tea?",
+          "note": "Do helps form a question."
+        },
+        {
+          "sentence": "She doesn't understand.",
+          "note": "Doesn't helps make a negative."
+        }
+      ],
+      "form": "Use do/does in present simple questions and negatives; use did for past simple. After do/does/did, use the base verb.",
+      "common_mistakes": [
+        "Does she likes it? → Does she like it."
+      ],
+      "quiz": [
+        {
+          "q": "Which is correct?",
+          "options": [
+            "Did you went home?",
+            "Did you go home?",
+            "Did you goes home?"
+          ],
+          "answer": 1,
+          "why": "After did, use the base form."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_present_perfect_continuous",
+      "category": "Grammar",
+      "title": "Present Perfect Continuous",
+      "keywords": [
+        "present",
+        "perfect",
+        "continuous",
+        "have",
+        "has",
+        "been",
+        "ing",
+        "since",
+        "for"
+      ],
+      "level": "Intermediate",
+      "explanation": "Use the present perfect continuous for an activity that began in the past and continues now, or has recently stopped with a visible result. It emphasizes duration or activity.",
+      "examples": [
+        {
+          "sentence": "I have been studying for two hours.",
+          "note": "The activity has continued for two hours."
+        },
+        {
+          "sentence": "She has been running, so she is tired.",
+          "note": "The recent activity explains the result."
+        }
+      ],
+      "form": "Subject + have/has + been + verb-ing.",
+      "common_mistakes": [
+        "I am studying since morning. → I have been studying since morning."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "He has been work all day.",
+            "He has been working all day.",
+            "He have been working all day."
+          ],
+          "answer": 1,
+          "why": "Use has been + verb-ing with he."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_past_perfect",
+      "category": "Grammar",
+      "title": "Past Perfect Tense",
+      "keywords": [
+        "past",
+        "perfect",
+        "had",
+        "past",
+        "participle",
+        "earlier",
+        "past"
+      ],
+      "level": "Intermediate",
+      "explanation": "Use the past perfect to show that one past action happened before another past time or action when the order needs to be clear.",
+      "examples": [
+        {
+          "sentence": "The train had left before we arrived.",
+          "note": "Leaving happened first."
+        },
+        {
+          "sentence": "I had finished my homework when she called.",
+          "note": "Finishing came before the call."
+        }
+      ],
+      "form": "Subject + had + past participle.",
+      "common_mistakes": [
+        "When I arrived, he has left. → When I arrived, he had left."
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct form.",
+          "options": [
+            "They had ate.",
+            "They had eaten.",
+            "They have ate."
+          ],
+          "answer": 1,
+          "why": "Past perfect uses had + past participle."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_past_perfect_continuous",
+      "category": "Grammar",
+      "title": "Past Perfect Continuous",
+      "keywords": [
+        "past",
+        "perfect",
+        "continuous",
+        "had",
+        "been",
+        "ing"
+      ],
+      "level": "Advanced",
+      "explanation": "Use the past perfect continuous to emphasize how long an activity had been happening before a past point or event.",
+      "examples": [
+        {
+          "sentence": "She had been waiting for an hour when the bus arrived.",
+          "note": "Duration before a past event."
+        }
+      ],
+      "form": "Subject + had been + verb-ing.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct form.",
+          "options": [
+            "I had been study.",
+            "I had been studying.",
+            "I have been studying yesterday."
+          ],
+          "answer": 1,
+          "why": "Use had been + verb-ing."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_future_continuous",
+      "category": "Grammar",
+      "title": "Future Continuous Tense",
+      "keywords": [
+        "future",
+        "continuous",
+        "will",
+        "be",
+        "ing"
+      ],
+      "level": "Intermediate",
+      "explanation": "Use the future continuous for an action that will be in progress at a particular future time.",
+      "examples": [
+        {
+          "sentence": "At 8 p.m., I will be studying.",
+          "note": "The action will be in progress at that time."
+        }
+      ],
+      "form": "Subject + will be + verb-ing.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "I will studying at eight.",
+            "I will be studying at eight.",
+            "I be studying at eight."
+          ],
+          "answer": 1,
+          "why": "Future continuous uses will be + verb-ing."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_future_perfect",
+      "category": "Grammar",
+      "title": "Future Perfect Tense",
+      "keywords": [
+        "future",
+        "perfect",
+        "will",
+        "have",
+        "past",
+        "participle"
+      ],
+      "level": "Advanced",
+      "explanation": "Use the future perfect for an action expected to be completed before a future time or deadline.",
+      "examples": [
+        {
+          "sentence": "By Friday, I will have finished the project.",
+          "note": "Completion before Friday."
+        }
+      ],
+      "form": "Subject + will have + past participle.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "By noon, I will have finished.",
+            "By noon, I have finish.",
+            "By noon, I will finished."
+          ],
+          "answer": 0,
+          "why": "Future perfect uses will have + past participle."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_future_perfect_continuous",
+      "category": "Grammar",
+      "title": "Future Perfect Continuous",
+      "keywords": [
+        "future",
+        "perfect",
+        "continuous",
+        "will",
+        "have",
+        "been",
+        "ing"
+      ],
+      "level": "Advanced",
+      "explanation": "Use the future perfect continuous to emphasize the duration of an activity up to a future point.",
+      "examples": [
+        {
+          "sentence": "By June, she will have been working here for ten years.",
+          "note": "Duration measured up to June."
+        }
+      ],
+      "form": "Subject + will have been + verb-ing.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "They will have been waiting for two hours.",
+            "They will has been waiting.",
+            "They will have waiting."
+          ],
+          "answer": 0,
+          "why": "The form is will have been + verb-ing."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_future_forms",
+      "category": "Grammar",
+      "title": "Ways to Talk About the Future",
+      "keywords": [
+        "future",
+        "forms",
+        "will",
+        "going",
+        "to",
+        "present",
+        "continuous",
+        "timetable"
+      ],
+      "level": "Intermediate",
+      "explanation": "English uses several forms for future meaning. Will often expresses predictions or decisions; going to often expresses plans or evidence-based predictions; present continuous can express arrangements; present simple can describe schedules.",
+      "examples": [
+        {
+          "sentence": "I'll answer the phone.",
+          "note": "Decision made now."
+        },
+        {
+          "sentence": "I'm meeting Sara tomorrow.",
+          "note": "Arrangement."
+        },
+        {
+          "sentence": "The bus leaves at six.",
+          "note": "Schedule."
+        }
+      ],
+      "form": "Choose the form based on meaning and context, not only on the word 'future'.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which sentence expresses a personal arrangement?",
+          "options": [
+            "I am meeting my teacher tomorrow.",
+            "Water boils at 100°C.",
+            "I met my teacher yesterday."
+          ],
+          "answer": 0,
+          "why": "Present continuous can express an arrangement."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_used_to",
+      "category": "Grammar",
+      "title": "Used To and Be Used To",
+      "keywords": [
+        "used",
+        "to",
+        "be",
+        "used",
+        "to",
+        "get",
+        "used",
+        "to"
+      ],
+      "level": "Intermediate",
+      "explanation": "Used to + base verb describes a past habit or state that is no longer true. Be used to + noun or -ing means accustomed to something. Get used to means become accustomed.",
+      "examples": [
+        {
+          "sentence": "I used to walk to school.",
+          "note": "A past habit."
+        },
+        {
+          "sentence": "I am used to waking up early.",
+          "note": "I am accustomed to it."
+        }
+      ],
+      "form": "used to + base verb; be/get used to + noun or verb-ing.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the sentence meaning 'accustomed to'.",
+          "options": [
+            "I used to waking early.",
+            "I am used to waking early.",
+            "I use to woke early."
+          ],
+          "answer": 1,
+          "why": "Be used to is followed by a noun or -ing."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_gerunds_infinitives",
+      "category": "Grammar",
+      "title": "Gerunds and Infinitives",
+      "keywords": [
+        "gerund",
+        "infinitive",
+        "verb",
+        "ing",
+        "to",
+        "do"
+      ],
+      "level": "Intermediate",
+      "explanation": "A gerund is an -ing form used like a noun. An infinitive is commonly to + base verb. Some verbs take one form, some the other, and some allow both with a change in meaning.",
+      "examples": [
+        {
+          "sentence": "I enjoy reading.",
+          "note": "Enjoy is followed by a gerund."
+        },
+        {
+          "sentence": "I want to learn.",
+          "note": "Want is followed by an infinitive."
+        }
+      ],
+      "form": "Learn common patterns: enjoy + -ing; want/hope/plan + to-infinitive.",
+      "common_mistakes": "I enjoy to read. → I enjoy reading.",
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "She decided going.",
+            "She decided to go.",
+            "She decided go."
+          ],
+          "answer": 1,
+          "why": "Decide is commonly followed by to + verb."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_infinitive_bare",
+      "category": "Grammar",
+      "title": "Bare Infinitives",
+      "keywords": [
+        "bare",
+        "infinitive",
+        "let",
+        "make",
+        "modal",
+        "verb"
+      ],
+      "level": "Intermediate",
+      "explanation": "A bare infinitive is the base form without 'to'. It follows modal verbs and certain verbs such as let and make in active structures.",
+      "examples": [
+        {
+          "sentence": "You must leave now.",
+          "note": "Base verb after must."
+        },
+        {
+          "sentence": "They let us enter.",
+          "note": "Base verb after let."
+        }
+      ],
+      "form": "Modal + base verb; let/make + object + base verb in common active patterns.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "She can to swim.",
+            "She can swim.",
+            "She can swimming."
+          ],
+          "answer": 1,
+          "why": "Use the base verb after can."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_determiners",
+      "category": "Grammar",
+      "title": "Determiners: This, That, Some, Any, Each, Every",
+      "keywords": [
+        "determiners",
+        "this",
+        "that",
+        "these",
+        "those",
+        "some",
+        "any",
+        "each",
+        "every"
+      ],
+      "level": "Intermediate",
+      "explanation": "Determiners come before nouns and help identify or quantify them. This/that indicate distance, some/any refer to an unspecified amount or number, and each/every focus on members of a group.",
+      "examples": [
+        {
+          "sentence": "These books are mine.",
+          "note": "These goes with plural nouns nearby."
+        },
+        {
+          "sentence": "Do you have any questions?",
+          "note": "Any is common in questions."
+        },
+        {
+          "sentence": "Every student is ready.",
+          "note": "Every is followed by a singular noun and verb."
+        }
+      ],
+      "form": "Determiner + noun; check number, meaning, and sentence type.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct phrase.",
+          "options": [
+            "every students",
+            "every student",
+            "every student are"
+          ],
+          "answer": 1,
+          "why": "Every is followed by a singular noun."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_quantifiers",
+      "category": "Grammar",
+      "title": "Quantifiers: Some, Any, Much, Many, Few, Little",
+      "keywords": [
+        "quantifiers",
+        "some",
+        "any",
+        "much",
+        "many",
+        "few",
+        "little",
+        "a",
+        "lot",
+        "of"
+      ],
+      "level": "Beginner",
+      "explanation": "Quantifiers show amount or number. Many and few are used with countable plural nouns; much and little are used with uncountable nouns. Some and any work with both, depending on context.",
+      "examples": [
+        {
+          "sentence": "There are many books.",
+          "note": "Countable plural."
+        },
+        {
+          "sentence": "We don't have much time.",
+          "note": "Uncountable noun."
+        },
+        {
+          "sentence": "I have a few friends.",
+          "note": "A few means some."
+        }
+      ],
+      "form": "many/few + countable plural; much/little + uncountable; a lot of + either.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct phrase.",
+          "options": [
+            "much chairs",
+            "many chairs",
+            "many furniture"
+          ],
+          "answer": 1,
+          "why": "Chairs are countable."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_some_any",
+      "category": "Grammar",
+      "title": "Some and Any",
+      "keywords": [
+        "some",
+        "any",
+        "offers",
+        "requests",
+        "questions",
+        "negatives"
+      ],
+      "level": "Beginner",
+      "explanation": "Some is common in positive statements and offers or requests expecting a yes. Any is common in negatives and many questions, but usage depends on meaning.",
+      "examples": [
+        {
+          "sentence": "I bought some apples.",
+          "note": "Positive statement."
+        },
+        {
+          "sentence": "Do you have any water?",
+          "note": "Neutral question."
+        },
+        {
+          "sentence": "Would you like some tea?",
+          "note": "Offer."
+        }
+      ],
+      "form": "Choose some or any based on sentence type and intended meaning.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the natural offer.",
+          "options": [
+            "Would you like any tea?",
+            "Would you like some tea?",
+            "Would you like a tea water?"
+          ],
+          "answer": 1,
+          "why": "Some is common in offers."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_subject_object",
+      "category": "Grammar",
+      "title": "Subject and Object",
+      "keywords": [
+        "subject",
+        "object",
+        "predicate",
+        "direct",
+        "indirect",
+        "object"
+      ],
+      "level": "Beginner",
+      "explanation": "The subject tells who or what the sentence is about and often performs the action. The object receives the action or is affected by it.",
+      "examples": [
+        {
+          "sentence": "Mimi opened the door.",
+          "note": "Mimi is subject; door is object."
+        },
+        {
+          "sentence": "The teacher gave us homework.",
+          "note": "Us is an indirect object; homework is a direct object."
+        }
+      ],
+      "form": "Subject + verb + (object), depending on the verb.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "In 'The boy kicked the ball,' what is the object?",
+          "options": [
+            "The boy",
+            "kicked",
+            "the ball"
+          ],
+          "answer": 2,
+          "why": "The ball receives the action."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_sentence_types",
+      "category": "Grammar",
+      "title": "Types of Sentences",
+      "keywords": [
+        "declarative",
+        "interrogative",
+        "imperative",
+        "exclamatory"
+      ],
+      "level": "Beginner",
+      "explanation": "The four common sentence types are declarative (statement), interrogative (question), imperative (command or request), and exclamatory (strong feeling).",
+      "examples": [
+        {
+          "sentence": "The sky is blue.",
+          "note": "Declarative."
+        },
+        {
+          "sentence": "Where are you?",
+          "note": "Interrogative."
+        },
+        {
+          "sentence": "Please sit down.",
+          "note": "Imperative."
+        }
+      ],
+      "form": "Identify the purpose and punctuation of each sentence.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "'Please open the window.' is mainly:",
+          "options": [
+            "Interrogative",
+            "Imperative",
+            "Exclamatory"
+          ],
+          "answer": 1,
+          "why": "It gives a polite instruction."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_fragments_runons",
+      "category": "Grammar",
+      "title": "Sentence Fragments and Run-on Sentences",
+      "keywords": [
+        "fragments",
+        "run",
+        "ons",
+        "comma",
+        "splice",
+        "sentence"
+      ],
+      "level": "Intermediate",
+      "explanation": "A fragment is an incomplete sentence presented as a full one. A run-on joins independent clauses incorrectly. Fix them by completing the idea or using punctuation and conjunctions correctly.",
+      "examples": [
+        {
+          "sentence": "Because I was late.",
+          "note": "Fragment if left alone."
+        },
+        {
+          "sentence": "I was late, so I hurried.",
+          "note": "Correctly joined clauses."
+        }
+      ],
+      "form": "Use a full stop, semicolon where appropriate, or comma + coordinating conjunction to join independent clauses.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which is a complete sentence?",
+          "options": [
+            "Because the bus was late.",
+            "When I got home.",
+            "The bus was late, so I walked."
+          ],
+          "answer": 2,
+          "why": "It expresses a complete thought and joins clauses correctly."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_capitalization",
+      "category": "Writing",
+      "title": "Capitalization Rules",
+      "keywords": [
+        "capital",
+        "letters",
+        "capitalization",
+        "names",
+        "countries",
+        "days",
+        "months",
+        "I"
+      ],
+      "level": "Beginner",
+      "explanation": "Use capital letters at the start of sentences, for the pronoun I, proper nouns, names of countries and languages, and days and months.",
+      "examples": [
+        {
+          "sentence": "I study English on Monday.",
+          "note": "I, English, and Monday are capitalized."
+        }
+      ],
+      "form": "Capitalize sentence beginnings and proper nouns.",
+      "common_mistakes": "i live in ethiopia. → I live in Ethiopia.",
+      "quiz": [
+        {
+          "q": "Which sentence is correctly capitalized?",
+          "options": [
+            "i speak english.",
+            "I speak English.",
+            "I Speak english."
+          ],
+          "answer": 1,
+          "why": "I and English need capitals."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_apostrophes",
+      "category": "Writing",
+      "title": "Apostrophes: Contractions and Possession",
+      "keywords": [
+        "apostrophe",
+        "contraction",
+        "possessive",
+        "its",
+        "it's",
+        "their",
+        "they're"
+      ],
+      "level": "Intermediate",
+      "explanation": "Apostrophes show omitted letters in contractions and possession. Its is possessive; it's means it is or it has. Their is possessive; they're means they are.",
+      "examples": [
+        {
+          "sentence": "It's raining.",
+          "note": "It is raining."
+        },
+        {
+          "sentence": "The cat licked its paw.",
+          "note": "Possessive its has no apostrophe."
+        },
+        {
+          "sentence": "They're here with their books.",
+          "note": "They're = they are; their shows possession."
+        }
+      ],
+      "form": "Check whether the word means a contraction or possession.",
+      "common_mistakes": "Its a good day. → It's a good day.",
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": [
+            "The dog wagged it's tail.",
+            "The dog wagged its tail.",
+            "The dog wagged its' tail."
+          ],
+          "answer": 1,
+          "why": "Its is possessive."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_comma",
+      "category": "Writing",
+      "title": "Using Commas",
+      "keywords": [
+        "comma",
+        "lists",
+        "introductory",
+        "clauses",
+        "direct",
+        "address"
+      ],
+      "level": "Intermediate",
+      "explanation": "Commas separate items in a list, set off some introductory elements, mark direct address, and help join independent clauses with a coordinating conjunction.",
+      "examples": [
+        {
+          "sentence": "After lunch, we studied.",
+          "note": "Introductory phrase."
+        },
+        {
+          "sentence": "I bought rice, beans, and fruit.",
+          "note": "List."
+        }
+      ],
+      "form": "Use commas to make structure clear, not simply wherever you pause.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which punctuation is correct?",
+          "options": [
+            "I was tired, so I slept.",
+            "I was tired so, I slept.",
+            "I, was tired so I slept."
+          ],
+          "answer": 0,
+          "why": "Use a comma before so joining independent clauses."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_semicolon_colon",
+      "category": "Writing",
+      "title": "Semicolons and Colons",
+      "keywords": [
+        "semicolon",
+        "colon",
+        "punctuation",
+        "independent",
+        "clauses",
+        "list"
+      ],
+      "level": "Advanced",
+      "explanation": "A semicolon can join closely related independent clauses. A colon can introduce an explanation, example, or list after a complete clause.",
+      "examples": [
+        {
+          "sentence": "The road was closed; we took another route.",
+          "note": "Two related independent clauses."
+        },
+        {
+          "sentence": "Bring three things: a pen, paper, and a book.",
+          "note": "Colon introduces a list."
+        }
+      ],
+      "form": "Use a semicolon between related independent clauses; use a colon after a complete introductory clause.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "A colon can introduce:",
+          "options": [
+            "A list after a complete clause",
+            "Every comma",
+            "Only questions"
+          ],
+          "answer": 0,
+          "why": "A colon often introduces a list or explanation."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_relative_pronouns",
+      "category": "Grammar",
+      "title": "Relative Pronouns and Clauses",
+      "keywords": [
+        "who",
+        "whom",
+        "whose",
+        "which",
+        "that",
+        "relative",
+        "pronoun"
+      ],
+      "level": "Intermediate",
+      "explanation": "Relative pronouns connect information to a noun. Who is a subject form for people; whom is an object form in formal English; whose shows possession; which is used for things; that is common in defining clauses.",
+      "examples": [
+        {
+          "sentence": "The person who called is here.",
+          "note": "Who is subject of called."
+        },
+        {
+          "sentence": "The person whom I met was kind.",
+          "note": "Whom is object of met."
+        }
+      ],
+      "form": "Choose a relative pronoun that fits the role and style.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which word shows possession?",
+          "options": [
+            "who",
+            "whose",
+            "which"
+          ],
+          "answer": 1,
+          "why": "Whose expresses possession."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_linking_words",
+      "category": "Writing",
+      "title": "Linking Words and Transitions",
+      "keywords": [
+        "linking",
+        "words",
+        "however",
+        "therefore",
+        "moreover",
+        "first",
+        "finally"
+      ],
+      "level": "Intermediate",
+      "explanation": "Linking words show relationships between ideas: addition, contrast, cause, result, sequence, or example. Choose one that matches the logic and punctuate it correctly.",
+      "examples": [
+        {
+          "sentence": "It was raining; however, we continued.",
+          "note": "Contrast."
+        },
+        {
+          "sentence": "The road was closed; therefore, we took another route.",
+          "note": "Result."
+        }
+      ],
+      "form": "Choose transitions by meaning; punctuation depends on where they appear.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which word signals contrast?",
+          "options": [
+            "therefore",
+            "however",
+            "for example"
+          ],
+          "answer": 1,
+          "why": "However signals contrast."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_paraphrasing",
+      "category": "Writing",
+      "title": "Paraphrasing and Summarizing",
+      "keywords": [
+        "paraphrase",
+        "summary",
+        "main",
+        "ideas",
+        "plagiarism"
+      ],
+      "level": "Intermediate",
+      "explanation": "Paraphrasing restates a specific idea in new wording and structure while preserving meaning. Summarizing gives only the main points in a shorter form. When using a source, credit it as required.",
+      "examples": [
+        {
+          "sentence": "Original: The road was blocked by heavy snow.",
+          "note": "Paraphrase: Heavy snowfall made the road impassable."
+        }
+      ],
+      "form": "Understand the source first, write from memory, compare meaning, and acknowledge sources when needed.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "A summary should usually:",
+          "options": [
+            "Include every detail",
+            "Present the main points briefly",
+            "Change only one word"
+          ],
+          "answer": 1,
+          "why": "A summary condenses the main ideas."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_word_formation",
+      "category": "Vocabulary",
+      "title": "Word Formation: Prefixes and Suffixes",
+      "keywords": [
+        "prefix",
+        "suffix",
+        "un",
+        "re",
+        "dis",
+        "ness",
+        "ful",
+        "less"
+      ],
+      "level": "Intermediate",
+      "explanation": "Prefixes are added to the beginning of a word and suffixes to the end. They can change meaning or word class.",
+      "examples": [
+        {
+          "sentence": "happy → unhappy",
+          "note": "Un- gives an opposite meaning."
+        },
+        {
+          "sentence": "kind → kindness",
+          "note": "-ness forms a noun."
+        }
+      ],
+      "form": "Learn common affixes and notice spelling changes.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "What does the prefix 're-' often mean?",
+          "options": [
+            "again",
+            "not",
+            "without"
+          ],
+          "answer": 0,
+          "why": "Re- often means again."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_collocations",
+      "category": "Vocabulary",
+      "title": "Collocations: Natural Word Partnerships",
+      "keywords": [
+        "collocations",
+        "make",
+        "do",
+        "take",
+        "have",
+        "strong",
+        "heavy",
+        "rain"
+      ],
+      "level": "Intermediate",
+      "explanation": "Collocations are words that commonly occur together. Learning them helps speech and writing sound natural.",
+      "examples": [
+        {
+          "sentence": "make a decision",
+          "note": "Common partnership."
+        },
+        {
+          "sentence": "heavy rain",
+          "note": "Natural adjective-noun pairing."
+        },
+        {
+          "sentence": "do homework",
+          "note": "Common verb-noun pairing."
+        }
+      ],
+      "form": "Learn vocabulary in phrases, not only as isolated words.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the natural collocation.",
+          "options": [
+            "make homework",
+            "do homework",
+            "build homework"
+          ],
+          "answer": 1,
+          "why": "Do homework is the standard collocation."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_confusing_words",
+      "category": "Vocabulary",
+      "title": "Commonly Confused Words",
+      "keywords": [
+        "their",
+        "there",
+        "they're",
+        "your",
+        "you're",
+        "its",
+        "it's",
+        "affect",
+        "effect"
+      ],
+      "level": "Intermediate",
+      "explanation": "Some English words sound alike or look similar but have different meanings. Use grammar and context to choose the correct form.",
+      "examples": [
+        {
+          "sentence": "You're welcome.",
+          "note": "You're = you are."
+        },
+        {
+          "sentence": "Put the book there.",
+          "note": "There indicates a place."
+        },
+        {
+          "sentence": "Their house is nearby.",
+          "note": "Their shows possession."
+        }
+      ],
+      "form": "Replace contractions with their full forms to check meaning.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "'___ going to be late' needs:",
+          "options": [
+            "Their",
+            "There",
+            "They're"
+          ],
+          "answer": 2,
+          "why": "They're means they are."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_prefix_suffix",
+      "category": "Vocabulary",
+      "title": "Common Prefixes and Suffixes",
+      "keywords": [
+        "prefixes",
+        "suffixes",
+        "un",
+        "dis",
+        "re",
+        "pre",
+        "mis",
+        "ness",
+        "ment",
+        "able"
+      ],
+      "level": "Intermediate",
+      "explanation": "A prefix changes a word at the beginning; a suffix changes it at the end. The effect depends on the word and affix.",
+      "examples": [
+        {
+          "sentence": "rewrite",
+          "note": "Re- means again."
+        },
+        {
+          "sentence": "careless",
+          "note": "-less means without."
+        }
+      ],
+      "form": "Use a dictionary to confirm how an affix changes meaning and grammar.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which word means 'without hope'?",
+          "options": [
+            "hopeful",
+            "hopeless",
+            "rehoped"
+          ],
+          "answer": 1,
+          "why": "Hopeless means without hope."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_word_classes",
+      "category": "Vocabulary",
+      "title": "Parts of Speech",
+      "keywords": [
+        "parts",
+        "of",
+        "speech",
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "preposition",
+        "conjunction"
+      ],
+      "level": "Beginner",
+      "explanation": "Words are grouped by the jobs they do in a sentence. Main categories include nouns, verbs, adjectives, adverbs, pronouns, determiners, prepositions, conjunctions, and interjections.",
+      "examples": [
+        {
+          "sentence": "The very small bird sang beautifully.",
+          "note": "Bird is noun; small is adjective; beautifully is adverb."
+        }
+      ],
+      "form": "Classify a word by its role in context; one word can belong to different classes in different sentences.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "In 'She sings beautifully,' 'beautifully' is a:",
+          "options": [
+            "noun",
+            "adverb",
+            "preposition"
+          ],
+          "answer": 1,
+          "why": "Beautifully modifies the verb sings."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_formal_informal",
+      "category": "Vocabulary",
+      "title": "Formal and Informal English",
+      "keywords": [
+        "formal",
+        "informal",
+        "register",
+        "email",
+        "slang",
+        "academic"
+      ],
+      "level": "Intermediate",
+      "explanation": "English changes according to audience and situation. Formal English is often used in academic or professional writing; informal English is common with friends and casual conversation.",
+      "examples": [
+        {
+          "sentence": "Formal: I would appreciate your assistance.",
+          "note": "Polite professional wording."
+        },
+        {
+          "sentence": "Informal: Can you give me a hand?",
+          "note": "Casual expression."
+        }
+      ],
+      "form": "Choose vocabulary and contractions appropriate to the audience and purpose.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which is most suitable for a formal email?",
+          "options": [
+            "Yo, send it.",
+            "Could you please send the document?",
+            "Gimme that."
+          ],
+          "answer": 1,
+          "why": "It is polite and professional."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_small_talk",
+      "category": "Speaking",
+      "title": "Small Talk and Keeping a Conversation Going",
+      "keywords": [
+        "small",
+        "talk",
+        "follow",
+        "up",
+        "questions",
+        "conversation"
+      ],
+      "level": "Beginner",
+      "explanation": "Small talk is brief friendly conversation about shared or everyday topics. Open questions and follow-up questions help keep it going.",
+      "examples": [
+        {
+          "sentence": "How was your weekend?",
+          "note": "An open question."
+        },
+        {
+          "sentence": "What did you enjoy most?",
+          "note": "A follow-up question."
+        }
+      ],
+      "form": "Ask, listen, respond to what was said, and ask a related follow-up question.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which question best invites a longer answer?",
+          "options": [
+            "Did you eat?",
+            "What do you enjoy doing in your free time?",
+            "Are you fine?"
+          ],
+          "answer": 1,
+          "why": "It invites details."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_opinions",
+      "category": "Speaking",
+      "title": "Giving Opinions and Agreeing Politely",
+      "keywords": [
+        "opinion",
+        "phrases",
+        "I",
+        "think",
+        "in",
+        "my",
+        "opinion",
+        "agree",
+        "disagree"
+      ],
+      "level": "Intermediate",
+      "explanation": "Use phrases such as 'I think', 'In my opinion', 'I agree because', and 'I see your point, but...' to share ideas respectfully.",
+      "examples": [
+        {
+          "sentence": "In my opinion, public libraries are important.",
+          "note": "States an opinion."
+        },
+        {
+          "sentence": "I see your point, but I have a different view.",
+          "note": "Disagrees politely."
+        }
+      ],
+      "form": "State the opinion, give a reason or example, and respond respectfully.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which phrase politely signals disagreement?",
+          "options": [
+            "You're stupid.",
+            "I see your point, but...",
+            "No, shut up."
+          ],
+          "answer": 1,
+          "why": "It acknowledges the other person's view."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_phone",
+      "category": "Speaking",
+      "title": "Telephone and Video Call English",
+      "keywords": [
+        "telephone",
+        "call",
+        "phrases",
+        "hold",
+        "on",
+        "speaking"
+      ],
+      "level": "Intermediate",
+      "explanation": "Phone calls often need clear openings, introductions, requests, clarification, and polite endings.",
+      "examples": [
+        {
+          "sentence": "Hello, this is Hana speaking.",
+          "note": "Introduces the speaker."
+        },
+        {
+          "sentence": "Could you repeat that, please?",
+          "note": "Requests clarification."
+        }
+      ],
+      "form": "Greeting → identify yourself → explain purpose → clarify → close politely.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "What can you say when you did not hear?",
+          "options": [
+            "Speak nonsense.",
+            "Could you repeat that, please?",
+            "I know everything."
+          ],
+          "answer": 1,
+          "why": "It is a polite clarification request."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_interviews",
+      "category": "Speaking",
+      "title": "Job and School Interview English",
+      "keywords": [
+        "interview",
+        "tell",
+        "me",
+        "about",
+        "yourself",
+        "strengths",
+        "examples"
+      ],
+      "level": "Intermediate",
+      "explanation": "Interview answers should be relevant, truthful, and supported by examples. Prepare a concise introduction, strengths, experiences, and questions for the interviewer.",
+      "examples": [
+        {
+          "sentence": "One strength of mine is teamwork. For example...",
+          "note": "A claim supported by an example."
+        }
+      ],
+      "form": "Answer directly, give a specific example, and connect it to the role or task.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "A strong interview answer should be:",
+          "options": [
+            "Unrelated and very long",
+            "Relevant and supported by an example",
+            "Made up to impress"
+          ],
+          "answer": 1,
+          "why": "Specific truthful examples are stronger."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "writing_email",
+      "category": "Writing",
+      "title": "Writing Clear Emails",
+      "keywords": [
+        "email",
+        "subject",
+        "greeting",
+        "purpose",
+        "closing",
+        "formal"
+      ],
+      "level": "Beginner",
+      "explanation": "A clear email has a useful subject, greeting, purpose, necessary details, and suitable closing. Formality depends on the recipient.",
+      "examples": [
+        {
+          "sentence": "Subject: Question about homework",
+          "note": "Specific subject."
+        },
+        {
+          "sentence": "Dear Ms. Bekele, ... Kind regards, Hana",
+          "note": "Formal greeting and closing."
+        }
+      ],
+      "form": "Subject → greeting → purpose → details/action requested → closing → name.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "What helps the reader understand an email quickly?",
+          "options": [
+            "A clear subject line",
+            "No paragraphs ever",
+            "A subject with no details"
+          ],
+          "answer": 0,
+          "why": "A clear subject previews the message."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "writing_letter",
+      "category": "Writing",
+      "title": "Formal and Informal Letters",
+      "keywords": [
+        "letter",
+        "format",
+        "address",
+        "date",
+        "salutation",
+        "closing"
+      ],
+      "level": "Intermediate",
+      "explanation": "Letters vary by purpose. Formal letters use respectful language and clear paragraphs; informal letters can be more personal and conversational.",
+      "examples": [
+        {
+          "sentence": "Dear Sir or Madam,",
+          "note": "Formal salutation when the recipient is unknown."
+        },
+        {
+          "sentence": "Hi Dawit,",
+          "note": "Informal greeting to someone you know."
+        }
+      ],
+      "form": "Greeting → reason for writing → details → requested action or closing.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which greeting is more formal?",
+          "options": [
+            "Hey bro",
+            "Dear Sir or Madam",
+            "Yo"
+          ],
+          "answer": 1,
+          "why": "It is a conventional formal greeting."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "writing_story",
+      "category": "Writing",
+      "title": "Writing a Short Story",
+      "keywords": [
+        "story",
+        "setting",
+        "character",
+        "conflict",
+        "plot",
+        "ending"
+      ],
+      "level": "Intermediate",
+      "explanation": "A short story often includes characters, setting, a problem or conflict, events that develop it, and an ending. Use specific details and consistent tense.",
+      "examples": [
+        {
+          "sentence": "At sunset, a student found a locked box.",
+          "note": "Establishes setting and a mystery."
+        }
+      ],
+      "form": "Plan character + setting + problem + key events + resolution.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "What usually drives a story forward?",
+          "options": [
+            "A conflict or problem",
+            "A random list of adjectives",
+            "Only the title"
+          ],
+          "answer": 0,
+          "why": "A problem gives the events direction."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "writing_descriptive",
+      "category": "Writing",
+      "title": "Descriptive Writing",
+      "keywords": [
+        "descriptive",
+        "writing",
+        "senses",
+        "adjectives",
+        "details"
+      ],
+      "level": "Intermediate",
+      "explanation": "Descriptive writing helps readers imagine a person, place, object, or experience. Use precise nouns, strong verbs, and relevant sensory details without overloading every sentence with adjectives.",
+      "examples": [
+        {
+          "sentence": "Warm bread filled the small kitchen with a sweet smell.",
+          "note": "Uses sensory detail."
+        }
+      ],
+      "form": "Choose a focus → observe details → organise by space or importance → revise for precision.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Good descriptive writing uses:",
+          "options": [
+            "Precise, relevant details",
+            "Only repeated adjectives",
+            "No nouns or verbs"
+          ],
+          "answer": 0,
+          "why": "Specific details help readers picture the scene."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "reading_context_clues",
+      "category": "Reading",
+      "title": "Using Context Clues",
+      "keywords": [
+        "context",
+        "clues",
+        "unfamiliar",
+        "words",
+        "meaning"
+      ],
+      "level": "Beginner",
+      "explanation": "Context clues are nearby words or ideas that help you infer an unfamiliar word's meaning. Clues may include examples, contrast, explanation, or cause and effect.",
+      "examples": [
+        {
+          "sentence": "Unlike his timid brother, Amir was bold.",
+          "note": "Unlike signals contrast; bold is opposite to timid."
+        }
+      ],
+      "form": "Read the whole sentence and paragraph, predict a meaning, then verify it.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "What can help you infer an unfamiliar word?",
+          "options": [
+            "The surrounding context",
+            "Ignoring the sentence",
+            "Guessing only from the first letter"
+          ],
+          "answer": 0,
+          "why": "Context supplies clues."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "reading_main_idea",
+      "category": "Reading",
+      "title": "Main Idea and Supporting Details",
+      "keywords": [
+        "main",
+        "idea",
+        "supporting",
+        "details",
+        "topic",
+        "sentence"
+      ],
+      "level": "Beginner",
+      "explanation": "The main idea is the central point of a text or paragraph. Supporting details explain, illustrate, or provide evidence for it.",
+      "examples": [
+        {
+          "sentence": "A paragraph lists exercise benefits: stronger muscles, better sleep, and improved mood.",
+          "note": "The main idea may be that exercise has several benefits."
+        }
+      ],
+      "form": "Ask: What is this mostly about? Which details support that point?",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Supporting details mainly:",
+          "options": [
+            "Explain or support the main idea",
+            "Replace the topic",
+            "Always introduce a new topic"
+          ],
+          "answer": 0,
+          "why": "They develop the main point."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "reading_inference",
+      "category": "Reading",
+      "title": "Making Inferences",
+      "keywords": [
+        "inference",
+        "evidence",
+        "conclusion",
+        "reading"
+      ],
+      "level": "Intermediate",
+      "explanation": "An inference is a conclusion drawn from clues in a text plus what you already know. A good inference is supported by evidence rather than pure imagination.",
+      "examples": [
+        {
+          "sentence": "The ground is wet and people carry umbrellas.",
+          "note": "It may have rained recently."
+        }
+      ],
+      "form": "Find a clue → combine it with reasonable background knowledge → state a cautious conclusion.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "An inference should be based on:",
+          "options": [
+            "Evidence and reasoning",
+            "A random guess only",
+            "The longest answer"
+          ],
+          "answer": 0,
+          "why": "Evidence supports a reasonable conclusion."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "listening_note_taking",
+      "category": "Listening",
+      "title": "Listening and Note-Taking Strategies",
+      "keywords": [
+        "listening",
+        "note",
+        "taking",
+        "keywords",
+        "gist",
+        "details"
+      ],
+      "level": "Intermediate",
+      "explanation": "Effective listening begins with a purpose. Listen first for the general idea, then for key details. Write keywords rather than every word and review notes soon afterward.",
+      "examples": [
+        {
+          "sentence": "Lecture topic: causes of pollution; notes: vehicles, factories, waste.",
+          "note": "Keywords capture major points."
+        }
+      ],
+      "form": "Before listening: predict topic. During: note main points. After: organise and check gaps.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Good notes usually focus on:",
+          "options": [
+            "Every single word",
+            "Key ideas and details",
+            "Unrelated personal thoughts"
+          ],
+          "answer": 1,
+          "why": "Notes should capture important information."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "pronunciation_word_stress",
+      "category": "Pronunciation",
+      "title": "Word Stress",
+      "keywords": [
+        "word",
+        "stress",
+        "syllables",
+        "pronunciation",
+        "record",
+        "present"
+      ],
+      "level": "Intermediate",
+      "explanation": "In English, one syllable in many words is more prominent. Stress can help listeners identify words and sometimes distinguish meanings or word classes.",
+      "examples": [
+        {
+          "sentence": "PREsent (noun) vs preSENT (verb)",
+          "note": "Stress changes by word class in this example."
+        }
+      ],
+      "form": "Listen to a reliable pronunciation model, mark the stressed syllable, and practise aloud.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Word stress is:",
+          "options": [
+            "The prominence of a syllable",
+            "The number of letters",
+            "Only the last sound"
+          ],
+          "answer": 0,
+          "why": "Stress makes one syllable more prominent."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "pronunciation_sentence_stress",
+      "category": "Pronunciation",
+      "title": "Sentence Stress and Rhythm",
+      "keywords": [
+        "sentence",
+        "stress",
+        "rhythm",
+        "content",
+        "words",
+        "function",
+        "words"
+      ],
+      "level": "Intermediate",
+      "explanation": "English speech often stresses important content words and reduces many grammatical function words. Stress can change which information sounds most important.",
+      "examples": [
+        {
+          "sentence": "I wanted the BLUE one.",
+          "note": "Blue is emphasized to contrast colour."
+        }
+      ],
+      "form": "Practise short phrases, stress key words, and listen for reductions in natural speech.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Sentence stress can help show:",
+          "options": [
+            "Which information is important",
+            "Only spelling",
+            "The number of paragraphs"
+          ],
+          "answer": 0,
+          "why": "Stress highlights important information."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "pronunciation_th",
+      "category": "Pronunciation",
+      "title": "Pronouncing the TH Sounds",
+      "keywords": [
+        "th",
+        "pronunciation",
+        "voiced",
+        "unvoiced",
+        "think",
+        "this"
+      ],
+      "level": "Intermediate",
+      "explanation": "English has two common 'th' sounds: the unvoiced sound in think and the voiced sound in this. Tongue placement near the teeth helps produce both.",
+      "examples": [
+        {
+          "sentence": "think, bath",
+          "note": "Unvoiced th."
+        },
+        {
+          "sentence": "this, mother",
+          "note": "Voiced th."
+        }
+      ],
+      "form": "Place the tongue lightly near or between the teeth and practise slowly, then in sentences.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which word usually has voiced th?",
+          "options": [
+            "think",
+            "this",
+            "bath"
+          ],
+          "answer": 1,
+          "why": "This begins with voiced th."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "pronunciation_vowels",
+      "category": "Pronunciation",
+      "title": "English Vowel Sounds",
+      "keywords": [
+        "vowel",
+        "pronunciation",
+        "ship",
+        "sheep",
+        "full",
+        "fool"
+      ],
+      "level": "Intermediate",
+      "explanation": "English spelling does not always predict vowel pronunciation. Small vowel differences can distinguish words, so listening and repeated practice are useful.",
+      "examples": [
+        {
+          "sentence": "ship / sheep",
+          "note": "Short and long vowel contrast for many accents."
+        },
+        {
+          "sentence": "full / fool",
+          "note": "Different vowel qualities."
+        }
+      ],
+      "form": "Use audio from a trusted dictionary and practise minimal pairs in context.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Why can pronunciation be hard to predict from spelling?",
+          "options": [
+            "Letters and sounds do not always match one-to-one",
+            "English has no vowels",
+            "Every word sounds as spelled"
+          ],
+          "answer": 0,
+          "why": "Spelling-sound patterns are not perfectly consistent."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_numbers_dates",
+      "category": "Vocabulary",
+      "title": "Numbers, Dates, and Time",
+      "keywords": [
+        "numbers",
+        "dates",
+        "telling",
+        "time",
+        "ordinal",
+        "cardinal"
+      ],
+      "level": "Beginner",
+      "explanation": "Learn cardinal numbers (one, two), ordinal numbers (first, second), dates, years, and common ways to tell the time. Spoken date formats vary by region.",
+      "examples": [
+        {
+          "sentence": "It's quarter past three.",
+          "note": "3:15."
+        },
+        {
+          "sentence": "The 21st of May / May 21st",
+          "note": "Two common date patterns."
+        }
+      ],
+      "form": "Practise both saying and writing times and dates; follow the format expected in your context.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "'First, second, third' are:",
+          "options": [
+            "Cardinal numbers",
+            "Ordinal numbers",
+            "Fractions"
+          ],
+          "answer": 1,
+          "why": "Ordinal numbers show order."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_money_shopping",
+      "category": "Vocabulary",
+      "title": "Shopping and Money Vocabulary",
+      "keywords": [
+        "shopping",
+        "prices",
+        "sizes",
+        "change",
+        "receipt",
+        "cashier"
+      ],
+      "level": "Beginner",
+      "explanation": "Useful shopping language includes asking prices, sizes, availability, payment methods, and receipts. Check whether prices are per item or per unit.",
+      "examples": [
+        {
+          "sentence": "How much does this cost?",
+          "note": "Asks the price."
+        },
+        {
+          "sentence": "Could I try this in a larger size?",
+          "note": "Asks for another size."
+        }
+      ],
+      "form": "Polite question + item or service + specific detail.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which phrase asks for a price?",
+          "options": [
+            "How much is this?",
+            "Where is yesterday?",
+            "How old is the price?"
+          ],
+          "answer": 0,
+          "why": "It asks the cost."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_travel",
+      "category": "Vocabulary",
+      "title": "Travel and Directions",
+      "keywords": [
+        "travel",
+        "directions",
+        "turn",
+        "left",
+        "straight",
+        "ahead",
+        "across",
+        "from"
+      ],
+      "level": "Beginner",
+      "explanation": "Travel vocabulary helps you ask for directions, understand transport information, and describe locations. Direction phrases include turn left, go straight, and next to.",
+      "examples": [
+        {
+          "sentence": "Go straight and turn right at the bank.",
+          "note": "Gives directions."
+        },
+        {
+          "sentence": "Is there a bus stop nearby?",
+          "note": "Asks about transport."
+        }
+      ],
+      "form": "Ask politely, listen for landmarks, and confirm important directions.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "'Turn left' means:",
+          "options": [
+            "Move to the left",
+            "Move backward",
+            "Stop forever"
+          ],
+          "answer": 0,
+          "why": "It gives a direction."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_health",
+      "category": "Vocabulary",
+      "title": "Health and Everyday Wellbeing Vocabulary",
+      "keywords": [
+        "health",
+        "symptoms",
+        "appointment",
+        "pharmacy",
+        "advice"
+      ],
+      "level": "Intermediate",
+      "explanation": "Learn common phrases for describing symptoms and asking for help. For serious or urgent health concerns, communicate clearly with a qualified professional.",
+      "examples": [
+        {
+          "sentence": "I have a headache.",
+          "note": "Describes a symptom."
+        },
+        {
+          "sentence": "I'd like to make an appointment.",
+          "note": "Requests a visit."
+        }
+      ],
+      "form": "Symptom + duration + severity + request for help, when relevant.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which phrase describes a symptom?",
+          "options": [
+            "I have a sore throat.",
+            "I have a blue appointment.",
+            "I am a receipt."
+          ],
+          "answer": 0,
+          "why": "A sore throat is a symptom."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "vocabulary_work_school",
+      "category": "Vocabulary",
+      "title": "School and Workplace Vocabulary",
+      "keywords": [
+        "school",
+        "workplace",
+        "assignment",
+        "deadline",
+        "meeting",
+        "colleague"
+      ],
+      "level": "Beginner",
+      "explanation": "School and workplace vocabulary includes assignments, deadlines, meetings, schedules, feedback, colleagues, and responsibilities.",
+      "examples": [
+        {
+          "sentence": "The assignment is due on Friday.",
+          "note": "Deadline phrase."
+        },
+        {
+          "sentence": "Could we schedule a meeting?",
+          "note": "Workplace request."
+        }
+      ],
+      "form": "Learn the word, its common partners, and one situation where it is used.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "A deadline is:",
+          "options": [
+            "The time something must be finished by",
+            "A type of notebook",
+            "A lunch break"
+          ],
+          "answer": 0,
+          "why": "A deadline is the completion time limit."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "study_active_recall",
+      "category": "Study Skills",
+      "title": "Active Recall and Spaced Review",
+      "keywords": [
+        "active",
+        "recall",
+        "spaced",
+        "repetition",
+        "memory",
+        "study"
+      ],
+      "level": "Beginner",
+      "explanation": "Active recall means trying to remember information without looking at the answer. Spaced review means revisiting material at increasing intervals. Both can help learning when used consistently.",
+      "examples": [
+        {
+          "sentence": "Close your notes and explain the tense from memory.",
+          "note": "Active recall."
+        },
+        {
+          "sentence": "Review a word tomorrow and again several days later.",
+          "note": "Spaced review."
+        }
+      ],
+      "form": "Study → recall without notes → check errors → review later.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Active recall means:",
+          "options": [
+            "Trying to retrieve information from memory",
+            "Copying notes without thinking",
+            "Never checking answers"
+          ],
+          "answer": 0,
+          "why": "It requires retrieving information."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_irregular_verbs",
+      "category": "Grammar",
+      "title": "Common Irregular Verbs",
+      "keywords": [
+        "irregular",
+        "verbs",
+        "go",
+        "went",
+        "gone",
+        "see",
+        "saw",
+        "seen",
+        "take",
+        "took",
+        "taken"
+      ],
+      "level": "Beginner",
+      "explanation": "Irregular verbs do not form the past simply by adding -ed. Learn their base, past simple, and past participle forms together.",
+      "examples": [
+        {
+          "sentence": "go – went – gone",
+          "note": "Three forms of go."
+        },
+        {
+          "sentence": "see – saw – seen",
+          "note": "Three forms of see."
+        }
+      ],
+      "form": "Base form / past simple / past participle. Use the past participle with have/has/had and in many passive structures.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct form: 'Yesterday, I ___ a bird.'",
+          "options": [
+            "see",
+            "saw",
+            "seen"
+          ],
+          "answer": 1,
+          "why": "Simple past of see is saw."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_regular_verbs",
+      "category": "Grammar",
+      "title": "Regular Verb Spelling in the Past",
+      "keywords": [
+        "regular",
+        "verbs",
+        "ed",
+        "spelling",
+        "rules"
+      ],
+      "level": "Beginner",
+      "explanation": "Most regular verbs form the past with -ed, but spelling and pronunciation vary. Some verbs add -d, change y to i, or double a final consonant under common patterns.",
+      "examples": [
+        {
+          "sentence": "play → played",
+          "note": "Add -ed."
+        },
+        {
+          "sentence": "live → lived",
+          "note": "Add -d."
+        },
+        {
+          "sentence": "study → studied",
+          "note": "Consonant + y changes to ied."
+        }
+      ],
+      "form": "Check the ending and syllable/stress pattern; there are exceptions.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "The past of 'study' is:",
+          "options": [
+            "studyed",
+            "studied",
+            "studys"
+          ],
+          "answer": 1,
+          "why": "Consonant + y commonly changes to -ied."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_negative_sentences",
+      "category": "Grammar",
+      "title": "Making Negative Sentences",
+      "keywords": [
+        "negatives",
+        "not",
+        "do",
+        "not",
+        "does",
+        "not",
+        "did",
+        "not",
+        "be"
+      ],
+      "level": "Beginner",
+      "explanation": "Negatives often use not after an auxiliary verb. When there is no auxiliary in the simple present or past, use do/does/did + not + base verb.",
+      "examples": [
+        {
+          "sentence": "She is not ready.",
+          "note": "Not follows be."
+        },
+        {
+          "sentence": "They do not play on Sundays.",
+          "note": "Do not + base verb."
+        },
+        {
+          "sentence": "He did not call.",
+          "note": "Did not + base verb."
+        }
+      ],
+      "form": "Be/modal + not; otherwise use do/does/did + not + base verb.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct negative.",
+          "options": [
+            "She doesn't likes tea.",
+            "She doesn't like tea.",
+            "She not like tea."
+          ],
+          "answer": 1,
+          "why": "Doesn't is followed by the base verb."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_question_tags",
+      "category": "Grammar",
+      "title": "Question Tags",
+      "keywords": [
+        "question",
+        "tags",
+        "isn't",
+        "it",
+        "don't",
+        "you",
+        "are",
+        "they"
+      ],
+      "level": "Intermediate",
+      "explanation": "Question tags are short questions added to statements. A positive statement often takes a negative tag, and a negative statement often takes a positive tag. The auxiliary and pronoun must match.",
+      "examples": [
+        {
+          "sentence": "You're ready, aren't you?",
+          "note": "Positive statement, negative tag."
+        },
+        {
+          "sentence": "She isn't here, is she?",
+          "note": "Negative statement, positive tag."
+        }
+      ],
+      "form": "Statement + matching auxiliary + pronoun; intonation can show whether a real answer is expected.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "You're tired, ___?",
+          "options": [
+            "aren't you",
+            "are you not tired",
+            "isn't it"
+          ],
+          "answer": 0,
+          "why": "The tag matches you and the positive statement."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_indirect_questions",
+      "category": "Grammar",
+      "title": "Indirect Questions",
+      "keywords": [
+        "indirect",
+        "questions",
+        "could",
+        "you",
+        "tell",
+        "me",
+        "where"
+      ],
+      "level": "Intermediate",
+      "explanation": "Indirect questions are more polite or less direct. After an opening phrase such as 'Could you tell me', use statement word order rather than question word order.",
+      "examples": [
+        {
+          "sentence": "Direct: Where is the station?",
+          "note": "Direct question order."
+        },
+        {
+          "sentence": "Indirect: Could you tell me where the station is?",
+          "note": "Statement word order inside the indirect question."
+        }
+      ],
+      "form": "Opening phrase + question word + subject + verb.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the correct indirect question.",
+          "options": [
+            "Could you tell me where is the bank?",
+            "Could you tell me where the bank is?",
+            "Could you tell where the bank?"
+          ],
+          "answer": 1,
+          "why": "Use subject + verb order in the embedded question."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_prepositions_depend",
+      "category": "Grammar",
+      "title": "Common Preposition Patterns",
+      "keywords": [
+        "depend",
+        "on",
+        "interested",
+        "in",
+        "good",
+        "at",
+        "afraid",
+        "of"
+      ],
+      "level": "Intermediate",
+      "explanation": "Many adjectives and verbs commonly pair with particular prepositions. These combinations often need to be learned as whole phrases.",
+      "examples": [
+        {
+          "sentence": "interested in music",
+          "note": "Adjective + in."
+        },
+        {
+          "sentence": "depend on your help",
+          "note": "Verb + on."
+        },
+        {
+          "sentence": "good at maths",
+          "note": "Adjective + at."
+        }
+      ],
+      "form": "Record the full phrase and an example sentence; usage can vary by meaning.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Choose the natural phrase.",
+          "options": [
+            "interested on art",
+            "interested in art",
+            "interested at art"
+          ],
+          "answer": 1,
+          "why": "Interested is commonly followed by in."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_punctuation_quotes",
+      "category": "Writing",
+      "title": "Quotation Marks and Dialogue",
+      "keywords": [
+        "quotation",
+        "marks",
+        "direct",
+        "speech",
+        "dialogue"
+      ],
+      "level": "Intermediate",
+      "explanation": "Quotation marks mark direct speech in many English writing styles. Punctuation conventions vary between American and British styles, so be consistent with the style you choose.",
+      "examples": [
+        {
+          "sentence": "She said, “I'm ready.”",
+          "note": "Direct speech in a common style."
+        }
+      ],
+      "form": "Introduce speech clearly and keep punctuation style consistent.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Quotation marks are often used to show:",
+          "options": [
+            "Direct speech",
+            "A plural noun",
+            "A verb tense"
+          ],
+          "answer": 0,
+          "why": "They mark exact words in direct speech."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "writing_proofreading",
+      "category": "Writing",
+      "title": "Editing and Proofreading",
+      "keywords": [
+        "proofreading",
+        "edit",
+        "revise",
+        "grammar",
+        "spelling"
+      ],
+      "level": "Intermediate",
+      "explanation": "Revision improves ideas and organisation; editing improves clarity and sentence structure; proofreading checks surface errors such as spelling, punctuation, and typos.",
+      "examples": [
+        {
+          "sentence": "First check the main argument, then grammar and spelling.",
+          "note": "Separate passes help focus."
+        }
+      ],
+      "form": "Revise ideas → edit sentences → proofread mechanics; read aloud to catch awkward phrasing.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Proofreading mainly checks:",
+          "options": [
+            "Typos, spelling, and punctuation",
+            "Only the title",
+            "New research unrelated to the draft"
+          ],
+          "answer": 0,
+          "why": "Proofreading checks surface errors."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "writing_cv",
+      "category": "Writing",
+      "title": "Writing a Simple CV or Résumé",
+      "keywords": [
+        "cv",
+        "resume",
+        "skills",
+        "education",
+        "experience"
+      ],
+      "level": "Intermediate",
+      "explanation": "A CV or résumé presents relevant education, skills, experience, and achievements clearly and honestly. Use consistent formatting and action verbs, and tailor details to the opportunity.",
+      "examples": [
+        {
+          "sentence": "Organised a school club event for 30 students.",
+          "note": "Specific action and scope."
+        }
+      ],
+      "form": "Contact details → profile if useful → education → relevant experience/skills → achievements.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "A CV should be:",
+          "options": [
+            "Accurate and relevant",
+            "Filled with invented experience",
+            "Difficult to scan"
+          ],
+          "answer": 0,
+          "why": "Accuracy and relevance build credibility."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "reading_skimming_scanning",
+      "category": "Reading",
+      "title": "Skimming and Scanning",
+      "keywords": [
+        "skimming",
+        "scanning",
+        "reading",
+        "techniques"
+      ],
+      "level": "Beginner",
+      "explanation": "Skimming means reading quickly to understand the general idea. Scanning means searching for a particular fact, number, name, or keyword.",
+      "examples": [
+        {
+          "sentence": "Read the headings to get the topic.",
+          "note": "Skimming."
+        },
+        {
+          "sentence": "Find the date in a timetable.",
+          "note": "Scanning."
+        }
+      ],
+      "form": "Choose skimming for gist and scanning for a specific detail.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "To find a phone number quickly, use:",
+          "options": [
+            "Skimming",
+            "Scanning",
+            "Guessing"
+          ],
+          "answer": 1,
+          "why": "Scanning searches for a specific detail."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "listening_gist_detail",
+      "category": "Listening",
+      "title": "Listening for Gist and Detail",
+      "keywords": [
+        "listening",
+        "gist",
+        "specific",
+        "details"
+      ],
+      "level": "Beginner",
+      "explanation": "Listening for gist means identifying the overall message. Listening for detail means focusing on specific facts, names, times, or reasons.",
+      "examples": [
+        {
+          "sentence": "First listen: What is the conversation about?",
+          "note": "Gist."
+        },
+        {
+          "sentence": "Second listen: What time is the meeting?",
+          "note": "Detail."
+        }
+      ],
+      "form": "Listen once for the topic and again for the details if possible.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Listening for gist means listening for:",
+          "options": [
+            "The overall message",
+            "Every individual sound only",
+            "One spelling rule"
+          ],
+          "answer": 0,
+          "why": "Gist is the overall meaning."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_clarification",
+      "category": "Speaking",
+      "title": "Asking for Clarification",
+      "keywords": [
+        "clarification",
+        "could",
+        "you",
+        "explain",
+        "what",
+        "do",
+        "you",
+        "mean"
+      ],
+      "level": "Beginner",
+      "explanation": "When you do not understand, ask politely for repetition, slower speech, an example, or clarification.",
+      "examples": [
+        {
+          "sentence": "Could you speak a little more slowly?",
+          "note": "Requests slower speech."
+        },
+        {
+          "sentence": "What do you mean by this word?",
+          "note": "Asks for meaning."
+        }
+      ],
+      "form": "Could you repeat/explain...? / What does ... mean? / Do you mean ...?",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which phrase asks someone to repeat?",
+          "options": [
+            "Could you say that again, please?",
+            "I don't need to listen.",
+            "Never mind, always."
+          ],
+          "answer": 0,
+          "why": "It directly and politely asks for repetition."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_presentation",
+      "category": "Speaking",
+      "title": "Giving a Short Presentation",
+      "keywords": [
+        "presentation",
+        "opening",
+        "signposting",
+        "conclusion"
+      ],
+      "level": "Intermediate",
+      "explanation": "A clear presentation has an opening, a small number of organised points, signposting phrases, examples, and a conclusion. Practise aloud and use notes rather than reading every word.",
+      "examples": [
+        {
+          "sentence": "Today, I'll talk about three benefits of reading.",
+          "note": "Introduces the plan."
+        }
+      ],
+      "form": "Opening → point 1 → point 2 → point 3 → summary → questions.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "What helps listeners follow a presentation?",
+          "options": [
+            "Clear signposting and organisation",
+            "Speaking without any structure",
+            "Changing topic every sentence"
+          ],
+          "answer": 0,
+          "why": "Signposting helps the audience follow ideas."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "speaking_apologies",
+      "category": "Speaking",
+      "title": "Apologies and Responding Politely",
+      "keywords": [
+        "apologies",
+        "sorry",
+        "apologize",
+        "accept",
+        "apology"
+      ],
+      "level": "Beginner",
+      "explanation": "Use 'I'm sorry' to apologise, explain briefly when useful, and offer to correct a problem. Responses depend on seriousness and context.",
+      "examples": [
+        {
+          "sentence": "I'm sorry I was late.",
+          "note": "Apology."
+        },
+        {
+          "sentence": "That's okay. Thanks for telling me.",
+          "note": "Accepts a minor apology."
+        }
+      ],
+      "form": "Acknowledge the problem → apologise → explain or repair if appropriate.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "Which is a natural apology?",
+          "options": [
+            "I am sorry I interrupted you.",
+            "You must be happy I broke it.",
+            "No words ever."
+          ],
+          "answer": 0,
+          "why": "It clearly apologises for an action."
+        }
+      ],
+      "practice": []
+    },
+    {
+      "id": "grammar_ethics_source",
+      "category": "Study Skills",
+      "title": "Using Dictionaries and Reliable Sources",
+      "keywords": [
+        "dictionary",
+        "pronunciation",
+        "example",
+        "source",
+        "reliability"
+      ],
+      "level": "Beginner",
+      "explanation": "A learner's dictionary can provide definitions, pronunciation audio, word class, example sentences, and usage labels. Compare sources when a phrase is unfamiliar and consider context and regional variation.",
+      "examples": [
+        {
+          "sentence": "Check whether a word is a noun or verb.",
+          "note": "Word class helps you use it correctly."
+        }
+      ],
+      "form": "Look up meaning → listen to pronunciation → read examples → write your own sentence.",
+      "common_mistakes": "",
+      "quiz": [
+        {
+          "q": "A learner's dictionary can help with:",
+          "options": [
+            "Meaning and pronunciation",
+            "Only video editing",
+            "Predicting every future word"
+          ],
+          "answer": 0,
+          "why": "Dictionaries support meaning and pronunciation."
+        }
+      ],
+      "practice": []
+    }
+  ],
+  "lesson_count": 101,
+  "categories": [
+    "Grammar",
+    "Listening",
+    "Pronunciation",
+    "Reading",
+    "Speaking",
+    "Study Skills",
+    "Vocabulary",
+    "Writing"
+  ]
+}
